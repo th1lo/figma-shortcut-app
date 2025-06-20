@@ -6,7 +6,7 @@ A native macOS app that instantly adds custom shortcuts to supercharge your Figm
 
 ## 🚀 Quick Start
 
-1. **Download** `FigmaShortcuts-Standalone.app`
+1. **Download this repo** → Extract ZIP → Find `FigmaShortcuts-Standalone.app`
 2. **Double-click** to open
 3. **Choose** "🚀 Apply Auto Layout Shortcuts"
 4. **Restart Figma** and you're done!
@@ -34,12 +34,12 @@ A native macOS app that instantly adds custom shortcuts to supercharge your Figm
 
 ## 💻 Installation
 
-### Option 1: Download Release
-1. Go to [Releases](../../releases)
-2. Download `FigmaShortcuts-Standalone.app`
-3. Double-click to run
+### Download & Run
+1. **Download this repository** (green "Code" button → "Download ZIP")
+2. **Extract** the ZIP file
+3. **Double-click** `FigmaShortcuts-Standalone.app` to run
 
-### Option 2: Clone Repository
+### Or Clone with Git
 ```bash
 git clone https://github.com/yourusername/figma-auto-layout-shortcuts.git
 cd figma-auto-layout-shortcuts
