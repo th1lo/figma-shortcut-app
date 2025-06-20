@@ -1,22 +1,18 @@
-# Figma Shortcuts Manager
+# Figma Auto Layout Shortcuts
 
-A native macOS app to easily manage keyboard shortcuts for Figma's Auto Layout plugin.
+**One-click setup for 10 powerful Auto Layout keyboard shortcuts in Figma.**
+
+A native macOS app that instantly adds custom shortcuts to supercharge your Figma Auto Layout workflow.
 
 ## 🚀 Quick Start
 
-1. **Double-click `FigmaShortcuts.app`** to launch
-2. **Choose "🚀 Apply Auto Layout Shortcuts"**
-3. **Click "Apply Shortcuts"** in the dialog
-4. **Restart Figma** and enjoy your new shortcuts!
+1. **Download** `FigmaShortcuts-Standalone.app`
+2. **Double-click** to open
+3. **Choose** "🚀 Apply Auto Layout Shortcuts"
+4. **Restart Figma** and you're done!
 
-## ✨ Features
+## ⌨️ Shortcuts You Get
 
-### 🖱️ **Native macOS App**
-- Beautiful native dialogs
-- No Terminal knowledge required
-- Double-click to run
-
-### ⌨️ **10 Auto Layout Shortcuts**
 | Shortcut | Action |
 |----------|--------|
 | `Ctrl+Shift+S` | Auto gap between items |
@@ -30,75 +26,73 @@ A native macOS app to easily manage keyboard shortcuts for Figma's Auto Layout p
 | `Ctrl+Shift+D` | Move alignment down |
 | `Ctrl+Shift+F` | Move alignment right |
 
-### 🛠️ **App Features**
-- **🚀 Apply Shortcuts**: One-click setup of all shortcuts
-- **🧪 Test & Verify**: Advanced testing with automatic backups
-- **🔄 Restore Backups**: Restore previous shortcut configurations
-- **📋 View Current**: See what shortcuts are currently active
-- **ℹ️ Help**: Built-in documentation
-
 ## 📋 Requirements
 
-- **macOS** (tested on macOS 14+)
+- **macOS** (macOS 10.15+)
 - **Figma Desktop** app
-- **Auto Layout plugin** (install from Figma Community)
+- **[Auto Layout plugin](https://www.figma.com/community/plugin/734721047393768236/Auto-Layout)** (free from Figma Community)
+
+## 💻 Installation
+
+### Option 1: Download Release
+1. Go to [Releases](../../releases)
+2. Download `FigmaShortcuts-Standalone.app`
+3. Double-click to run
+
+### Option 2: Clone Repository
+```bash
+git clone https://github.com/yourusername/figma-auto-layout-shortcuts.git
+cd figma-auto-layout-shortcuts
+open FigmaShortcuts-Standalone.app
+```
 
 ## 🎯 How to Use
 
-### 1. **First Time Setup**
-1. Launch `FigmaShortcuts.app`
-2. Choose "🚀 Apply Auto Layout Shortcuts"
-3. Click "Apply Shortcuts"
-4. Restart Figma
-5. Install the [Auto Layout plugin](https://www.figma.com/community/plugin/734721047393768236/Auto-Layout)
+1. **Install Auto Layout plugin** in Figma (if not already installed)
+2. **Run the app** and apply shortcuts
+3. **Restart Figma**
+4. **Test it**: Select objects in a frame, press `Ctrl+Shift+S` for auto gap!
 
-### 2. **Testing Your Setup**
-1. In the app, choose "🧪 Test Shortcuts (Advanced)"
-2. Follow the Terminal prompts for comprehensive testing
-3. This creates automatic backups for safety
+## 🔧 App Features
 
-### 3. **Using Shortcuts in Figma**
-1. Create a frame with some objects
-2. Select the objects
-3. Try `Ctrl+Shift+S` for auto gap
-4. Use other shortcuts for different Auto Layout actions
-
-## 🗂️ Files Included
-
-- **`FigmaShortcuts.app`** - Main macOS application
-- **`apply-figma-shortcuts.sh`** - Script to apply shortcuts
-- **`test-figma-shortcuts.sh`** - Interactive testing script
-- **`restore-figma-shortcuts.sh`** - Backup restoration script
-- **`figmashortcuts.md`** - Technical documentation
-
-## 🔧 Technical Details
-
-The app uses macOS `defaults` commands to modify Figma's preferences:
-```bash
-defaults write com.figma.Desktop NSUserKeyEquivalents -dict-add "Menu Path" "Shortcut"
-```
-
-Shortcuts are stored in: `~/Library/Preferences/com.figma.Desktop.plist`
+- **🚀 Apply Shortcuts** - One-click setup of all 10 shortcuts
+- **📋 View Current** - See what shortcuts are active
+- **🗑️ Remove Custom Figma Shortcuts** - Clean removal (Figma-only)
+- **ℹ️ Help** - Built-in documentation
 
 ## 🛟 Troubleshooting
 
+### First run security warning?
+- **Right-click** the app → **"Open"** → **"Open"** (bypasses security warning)
+
 ### Shortcuts not working?
-1. **Restart Figma** completely
-2. **Install Auto Layout plugin** from Figma Community
-3. **Check plugin is enabled** in Figma preferences
-4. **Run test script** from the app for diagnostics
+1. **Restart Figma completely**
+2. **Check Auto Layout plugin is installed and enabled**
+3. **Try in a frame with objects selected**
 
-### App won't open?
-1. **Right-click** → "Open" (for first run security)
-2. **Check permissions** in System Preferences → Security
-3. **Run from Terminal**: `open FigmaShortcuts.app`
+### Want to remove shortcuts?
+- Use "🗑️ Remove Custom Figma Shortcuts" in the app
+- This only affects Figma shortcuts, never system or other apps
 
-### Need to restore old shortcuts?
-1. Use "🔄 Restore from Backup" in the app
-2. Or manually: `defaults delete com.figma.Desktop NSUserKeyEquivalents`
+## 🔒 Privacy & Safety
 
-## 🎉 That's It!
+- **Only modifies Figma preferences** - never touches system settings
+- **No network access** - completely offline
+- **Open source** - inspect the code yourself
+- **Reversible** - easy to remove shortcuts anytime
 
-Your Figma Auto Layout workflow just got supercharged! 
+## 🤝 Contributing
 
-**Enjoy designing faster with keyboard shortcuts!** ⚡ 
+Found a bug or want to add features? Pull requests welcome!
+
+1. Fork the repository
+2. Create your feature branch
+3. Submit a pull request
+
+## 📄 License
+
+MIT License - feel free to use and modify!
+
+---
+
+**Happy designing!** ⚡ Transform your Figma Auto Layout workflow with lightning-fast keyboard shortcuts. 
