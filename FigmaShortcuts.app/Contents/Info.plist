@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.figma.shortcuts-manager</string>
+	<key>CFBundleName</key>
+	<string>Figma Shortcuts Manager</string>
+	<key>CFBundleDisplayName</key>
+	<string>Figma Shortcuts Manager</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>applet</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2024 Figma Shortcuts Manager</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Figma Shortcuts Manager 1.0, Easily manage Auto Layout keyboard shortcuts for Figma</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.15</string>
+	<key>LSUIElement</key>
+	<false/>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSRequiresAquaSystemAppearance</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+</dict>
+</plist>
