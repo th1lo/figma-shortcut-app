@@ -6,7 +6,7 @@ A native macOS app that instantly configures custom shortcuts to work with the [
 
 ## 🚀 Quick Start
 
-1. **Download this repo** → Extract ZIP → Find `FigmaShortcuts-Standalone.app`
+1. **[Download the app](https://github.com/th1lo/figma-shortcut-app/archive/refs/heads/master.zip)** → Extract ZIP → Find `FigmaShortcuts-Standalone.app`
 2. **Double-click** to open
 3. **Choose** "🚀 Apply Auto Layout Shortcuts"
 4. **Restart Figma** and you're done!
@@ -35,11 +35,13 @@ A native macOS app that instantly configures custom shortcuts to work with the [
 ## 💻 Installation
 
 ### Download & Run
+
 1. **Download this repository** (green "Code" button → "Download ZIP")
 2. **Extract** the ZIP file
 3. **Double-click** `FigmaShortcuts-Standalone.app` to run
 
 ### Or Clone with Git
+
 ```bash
 git clone https://github.com/yourusername/figma-auto-layout-shortcuts.git
 cd figma-auto-layout-shortcuts
@@ -63,14 +65,17 @@ open FigmaShortcuts-Standalone.app
 ## 🛟 Troubleshooting
 
 ### First run security warning?
+
 - **Right-click** the app → **"Open"** → **"Open"** (bypasses security warning)
 
 ### Shortcuts not working?
+
 1. **Restart Figma completely**
 2. **Check [Auto Layout Keyboard Shortcuts plugin](https://www.figma.com/community/plugin/1376980982056310434/auto-layout-keyboard-shortcuts) is installed and enabled**
 3. **Try in a frame with objects selected**
 
 ### Want to remove shortcuts?
+
 - Use "🗑️ Remove Custom Figma Shortcuts" in the app
 - This only affects Figma shortcuts, never system or other apps
 
@@ -95,4 +100,4 @@ MIT License - feel free to use and modify!
 
 ---
 
-**Happy designing!** ⚡ Transform your Figma Auto Layout workflow with lightning-fast keyboard shortcuts. 
+**Happy designing!** ⚡ Transform your Figma Auto Layout workflow with lightning-fast keyboard shortcuts.
