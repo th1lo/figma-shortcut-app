@@ -1,8 +1,8 @@
 # Figma Auto Layout Shortcuts
 
-**One-click setup for 10 powerful Auto Layout keyboard shortcuts in Figma.**
+**One-click setup for 10 powerful keyboard shortcuts for the Auto Layout Keyboard Shortcuts plugin.**
 
-A native macOS app that instantly adds custom shortcuts to supercharge your Figma Auto Layout workflow.
+A native macOS app that instantly configures custom shortcuts to work with the [Auto Layout Keyboard Shortcuts plugin](https://www.figma.com/community/plugin/1376980982056310434/auto-layout-keyboard-shortcuts) in Figma.
 
 ## 🚀 Quick Start
 
@@ -30,7 +30,7 @@ A native macOS app that instantly adds custom shortcuts to supercharge your Figm
 
 - **macOS** (macOS 10.15+)
 - **Figma Desktop** app
-- **[Auto Layout plugin](https://www.figma.com/community/plugin/734721047393768236/Auto-Layout)** (free from Figma Community)
+- **[Auto Layout Keyboard Shortcuts plugin](https://www.figma.com/community/plugin/1376980982056310434/auto-layout-keyboard-shortcuts)** (free from Figma Community)
 
 ## 💻 Installation
 
@@ -48,7 +48,7 @@ open FigmaShortcuts-Standalone.app
 
 ## 🎯 How to Use
 
-1. **Install Auto Layout plugin** in Figma (if not already installed)
+1. **Install [Auto Layout Keyboard Shortcuts plugin](https://www.figma.com/community/plugin/1376980982056310434/auto-layout-keyboard-shortcuts)** in Figma
 2. **Run the app** and apply shortcuts
 3. **Restart Figma**
 4. **Test it**: Select objects in a frame, press `Ctrl+Shift+S` for auto gap!
@@ -67,7 +67,7 @@ open FigmaShortcuts-Standalone.app
 
 ### Shortcuts not working?
 1. **Restart Figma completely**
-2. **Check Auto Layout plugin is installed and enabled**
+2. **Check [Auto Layout Keyboard Shortcuts plugin](https://www.figma.com/community/plugin/1376980982056310434/auto-layout-keyboard-shortcuts) is installed and enabled**
 3. **Try in a frame with objects selected**
 
 ### Want to remove shortcuts?
