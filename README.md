@@ -35,11 +35,13 @@ A native macOS app that instantly configures custom shortcuts to work with the [
 ## 💻 Installation
 
 ### Option 1: Direct Download (Recommended)
+
 1. **[Click here to download](https://github.com/th1lo/figma-shortcut-app/archive/refs/heads/master.zip)** (downloads ZIP instantly)
 2. **Extract** the ZIP file
 3. **Double-click** `FigmaShortcuts-Standalone.app` to run
 
 ### Option 2: Clone with Git
+
 ```bash
 git clone https://github.com/th1lo/figma-shortcut-app.git
 cd figma-shortcut-app
